@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/home"
+    android:title="home"
+    android:icon="@drawable/home_solid"
+    />
+    <item
+        android:id="@+id/rewards"
+        android:title="rewards"
+        android:actionLayout="@layout/activity_main"
+        android:icon="@drawable/stars_solid"/>
+    <item
+        android:id="@+id/games"
+        android:title="games"
+        android:icon="@drawable/game"/>
+    <item
+        android:id="@+id/leaderboard"
+        android:title="leaderboard"
+        android:icon="@drawable/horizontal_align"/>
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/user"/>
+
+</menu>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".fragments.ReferAndEarnFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/baseline_arrow_back_ios_24"
+            android:paddingEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refer &amp; Earn"
+                android:textAlignment="center"
+                android:textColor="@color/color2"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/line_1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/game_controller" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invite"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rewards"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@drawable/group_5"/>
+    </LinearLayout>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="How it Works?"
+               android:layout_marginTop="16dp"
+               android:padding="8dp"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="22sp"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="1 Referral = 200 coins"
+               android:layout_marginTop="8dp"
+               android:padding="8dp"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="22sp"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="32dp"
+               android:layout_marginTop="16dp"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <View
+                   android:layout_width="40dp"
+                   android:layout_height="30dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_gravity="center"
+                   android:background="@drawable/vector12"/>
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Your friend should join your referral link"
+                   android:layout_weight="1"
+                   />
+
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="32dp"
+               android:layout_marginTop="24dp"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <View
+                   android:layout_width="40dp"
+                   android:layout_height="30dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_gravity="center"
+                   android:background="@drawable/vector13"/>
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="After joining Color Up, your friend will earn Golds"
+                   android:layout_weight="1"
+                   />
+
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="32dp"
+               android:layout_marginTop="24dp"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <View
+                   android:layout_width="40dp"
+                   android:layout_height="30dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_gravity="center"
+                   android:background="@drawable/vector14"/>
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="You will be getting 20% of his earning for the first month"
+                   android:layout_weight="1"
+                   />
+
+
+           </LinearLayout>
+
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  app:cardElevation="8dp"
+                  android:layout_marginTop="16dp"
+                  android:background="@drawable/bottom"
+                  android:orientation="vertical"
+                  android:padding="16dp"
+                 >
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:textColor="@color/white"
+                      android:paddingVertical="16dp"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:textAlignment="center"
+                      android:text="Invite your friends and earn coins!"
+                      />
+
+                  <Button
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="16dp"
+                      android:background="@drawable/button"
+                      android:drawableEnd="@drawable/baseline_content_copy_24"
+                      android:text="https://coloup.page.link/xyz"
+                      android:textSize="16sp"
+                      android:layout_gravity="center"
+                      android:textColor="@color/color2"/>
+                  <Button
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/color2"
+                      android:layout_marginTop="8dp"
+                      android:gravity="center"
+                      android:layout_gravity="center"
+                      android:text="Invite now!"/>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:textColor="@color/white"
+                      android:layout_gravity="center"
+                      android:text="or directly share on"/>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:layout_marginBottom="40dp"
+                      android:orientation="horizontal">
+
+
+                      <ImageView
+                          android:layout_width="30dp"
+                          android:layout_height="wrap_content"
+                          android:padding="8dp"
+                          android:layout_margin="8dp"
+                          android:background="@drawable/circle"
+                          android:scaleType="centerCrop"
+                          android:src="@drawable/vector15"/>
+
+                      <ImageView
+                          android:layout_width="30dp"
+                          android:layout_height="wrap_content"
+                          android:padding="8dp"
+                          android:background="@drawable/circle"
+                          android:layout_margin="8dp"
+                          android:scaleType="centerCrop"
+                          android:src="@drawable/vector16"/>
+
+                      <ImageView
+                          android:layout_width="30dp"
+                          android:layout_height="wrap_content"
+                          android:padding="8dp"
+                          android:background="@drawable/circle"
+                          android:layout_margin="8dp"
+                          android:scaleType="centerCrop"
+                          android:src="@drawable/message_processing"/>
+
+
+
+
+
+
+                  </LinearLayout>
+              </LinearLayout>
+
+       </LinearLayout>
+   </ScrollView>
+
+
+</LinearLayout>
